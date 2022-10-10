@@ -1,0 +1,555 @@
+*
+{
+    margin-top: 0;
+
+}
+body{
+}
+h1{
+    text-align: center;
+    font-size: 54px;
+    font-family: audiowide;
+    color: #048888;
+    padding:5px;
+    font-weight: normal;
+
+}
+h1:hover{
+ background:#eef6f6;
+}
+#navbar {
+    background-color:white;
+    position: fixed;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    top: -100px;
+    width: 100%;
+    height:60px;
+    line-height: 60px;
+    display: block;
+    transition: top 1s;
+  }
+  #navbar ul{
+    float: right;
+    margin-right: 7%;
+    
+}
+#navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+#navbar ul li a{
+    text-decoration: none;
+  color:#048888;
+  padding:30px;
+  font-size: 25px;  
+}
+#navbar #icon{
+    display:none;
+}
+#sanzaal{
+    margin-left: 7%;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bolder;
+    color:teal;
+    font-family: Asap;
+    text-align: center;
+}
+@media screen(max-width: 1400px)
+{
+    #navbar ul li a{
+        padding:15px;
+        font-size: 20px;
+
+    }
+    #sanzaal{
+        font-size:20px;
+    }
+}
+#body1{
+   padding: 0;
+   background-image: url("../img/sanzal.png");
+   width:100%;
+   height:70vh;
+   background-size: cover;  
+}
+.p{
+    margin-left: 10%;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+}
+nav .logo{
+    height:150px;
+    width:150px;
+    float:left;
+    margin-left: 7%;
+    margin-top: 15px;
+}
+nav .sanzaal
+{
+    color:#048888;
+    
+     height:75px;
+    line-height: 75px;
+    font-size: 75px;
+    padding: 0 15px;
+    padding-top: 4%;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    font-weight: bold;
+    font-family: Asap;
+}
+nav{
+    width:100%;
+    height:176px;
+    background-color:none;
+    line-height:176px ;  
+}
+nav ul{
+    float: right;
+    margin-right: 7%;    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+  color:#048888;
+  padding:30px;
+  font-size: 25px;
+  
+}
+nav ul li a.active,
+nav ul li a:hover
+{
+    color:rgb(44, 14, 14);
+    transition: 0.5s;
+
+}
+nav #icon{
+    color:#488888;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display:none;
+}
+#hero{
+    display:none;
+}
+.body2
+{
+    margin-left: 10%;
+    margin-right:10%;
+}
+.presence{
+    float:left;
+    margin: 0 20px;
+    padding:0 20px;
+    font-weight: bold;
+}
+.row1
+{
+   display: inline-flex;
+}
+.col1{
+    float: left;
+    width: 27%;
+    height:200px;
+    margin: 3%;
+    margin-top: 0%;
+    box-sizing: content-box;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: asap;
+    color:black;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+.row1:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col1:hover{
+    background: silver;
+    width:27.1%;
+    height:202px;
+   
+}
+.col1 .box{
+    padding:15px;
+    text-align: center;
+}
+.button{
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 20px;
+    border: 2px solid #488888 ;
+    background: none;
+    border-radius: 15px;
+    padding:2%;
+    color: black;
+   
+}
+.button:hover{
+    color:#ffffff;
+    background: teal;
+}
+
+#c1{
+    background-image: url("../img/Rectangle8.png");
+    background-size: cover;
+    opacity: 20;
+}
+#c2{
+    background-image: url("../img/Rectangle9.png");
+    background-size: cover;
+}
+#c3{
+    background-image: url("../img/Rectangle1.png");
+    background-size: cover;
+}
+.row{
+    display:box;
+    font-size: 24px;
+}
+.column{
+    float:left;
+    width:48%;
+    justify-content: center;    
+}
+.row:after{
+    content:'';
+    display:block;
+    width:4%;
+    clear:both;
+}
+.column2
+{
+    float:right;
+    width:48%;
+   justify-content:  center;
+}
+.column ul{
+    list-style: none;
+}
+.fa .fa-hand-o-right{
+    font-size: 18px;
+}
+@media screen(max-width: 1200px){
+    .row{
+        font-size: 18px;
+
+    }
+}
+.button1{
+    margin-top: 10%;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: none;
+    border:3px solid #488888;
+    text-decoration: none;
+    padding:1.5%;
+    justify-content: center;
+    transition:0.8s;
+    font-weight:400;
+}
+.button1:hover{
+    color:#ffffff;
+    background:cadetblue;
+}
+#img1{
+    position:absolute;
+    background-size: cover;
+    padding-left: 51%;
+    padding-top: 7%;    
+}
+.rect{
+    margin-top: 0%;
+    width: 100%;
+    height: 70vh;
+    display:flex;
+    background-image: conic-gradient(from 168.64deg at 50% 50%, rgba(4, 136, 136, 0) -34.67deg, #048888 183.94deg, rgba(4, 136, 136, 0) 325.33deg, #048888 543.94deg);
+    opacity: 0.5;
+    border-radius: 25px;
+    box-shadow: 0 1px 1px rgba(1,1,1,1);
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+  0%   {background-color: #ffb3d9;}
+  25%  {background-color: #ffff99;}
+  50%  {background-color: #b3ffff;}
+  100% {background-color: #99ffcc;}
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto; 
+    grid-gap: 150px;
+    padding: 20px;
+    margin-top:5%;
+    width:60%;
+
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    font-size: 20px;
+    font-family: Asap;
+  }
+  .fas{
+    font-size: 50px;
+  }
+ .far{
+    font-size: 50px;
+}
+.num{
+    font-size: 50px;
+}
+.back-to-top {
+    float:right;
+    margin-right: 3%;
+    font-size: 30px;
+    color:#488888;
+    display :none;
+     position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 999999;
+}
+
+.back-to-top i:hover {
+    color: #356464;
+    }
+
+
+
+
+
+
+@media (max-width:1400px)
+{
+    #navbar ul li a{
+        padding:10px;
+        font-size:20px;
+    }
+    #body1{
+        height:50vh;
+        background-size: cover;
+    }
+    h1{
+        font-size: 45px;
+    }
+    nav{
+        height:100px;
+        line-height: 100px;
+    }
+    nav .logo{
+        height:75px;
+        width:75px;
+    }
+    nav .sanzaal{
+        font-size: 45px;
+    height:100px;
+    line-height: 100px;
+    padding-top: 0%;
+    
+    }
+nav ul li a
+{
+    padding:15px;
+    font-size: 20px;;
+}
+.p{
+    font-size: 23px;
+}
+.col1{
+    font-size: 15px;
+    height:150px;
+}
+button{
+    font-size: 15px;
+}
+.row{
+    font-size: 20px;
+}
+#img1{
+
+    padding-top: 18%;
+    height:190px;
+    width:300px;
+}
+.grid-container{
+    grid-gap: 100px;
+    padding:0px;
+}
+.grid-container > div{
+    font-size: 18px;
+}
+.fas{
+    font-size: 30px;
+  }
+  .far{
+    font-size: 30px;
+}
+.num{
+    font-size: 30px;
+}
+}
+@media (max-width: 746px)
+{
+    
+    #body1{
+        background: url("../img/hero-img1.png");
+        background-size: cover;
+        width:100%;
+        height: 2vh;
+    }
+    nav{
+        background:none; 
+    }
+    nav.logo{
+        text-align: center;
+    }
+    nav .sanzaal{
+        font-size: 40px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .row1
+{
+   display: flex;
+}
+.col1{
+    float: left;
+    width: 80%;
+    align-items: center;
+    height:200px;
+    margin-left: 7%;
+    font-size: 25px;
+}
+.col1:hover{
+    width:79%;
+}
+    .column{
+        float: left;
+        font-size: 20px;
+        width:100%;
+    }
+    .column2{
+        float:left;
+        font-size: 20px;
+        width:100%;
+    }
+    .button1{
+    margin-top: 8%;
+    padding: 1%;
+}
+
+    #img1{
+    padding-left: 0%;
+    padding-top:0%;
+    width:80%;
+    align-items: center;
+}
+    .rect{
+        margin-top: 20px;
+    height:110vh;
+    display:flex;
+    flex-wrap: wrap;
+}
+    .grid-container {
+        text-align: center;
+    display: grid;
+    padding-top: 55%;
+    padding-left: 20%;
+    grid-template-columns: auto; 
+    grid-gap: 10%;
+    
+}
+}
+    
+@media (max-width: 1100px)
+{
+    #navbar{
+    display:none;
+    }
+    #body1{
+        height:45vh;
+    }
+    nav .logo{
+        height:70px;
+        width:70px;
+    }
+    nav .sanzaal{
+    
+    }
+    
+    nav{
+        background: white;
+    
+    }
+    nav #icon{
+        display:block;
+        float:right;
+        margin-right: 7%;
+    }
+    ul{
+        position:fixed;
+        width:80%;
+        height:60vh;
+        background:white;
+        top:80px;
+        left:-110%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display:block;
+        margin:50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    nav ul li a.active,nav ul li a.hover
+    {
+        border:none;
+        color:#3498db;
+    }
+    #check:checked ~ ul{
+    left: 0;
+    }
+
+}
+
+
+
+
+@media (max-width:746px)
+{
+    #navbar{
+        
+    }
+
+    #body1{
+        height:50vh;
+    }
+    .row1{
+        display:flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 425px)
+{
+
+}
